@@ -1,4 +1,5 @@
 {
+  "homepage": "https://davidcodina.github.io/react-vite-template-2023/",
   "name": "demo",
   "private": true,
   "version": "0.0.0",
@@ -6,6 +7,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "preview": "vite preview",
     "test": "vitest",
     "test:coverage": "vitest --coverage",
@@ -53,6 +56,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-storybook": "^0.6.10",
     "eslint-plugin-vitest": "^0.0.34",
+    "gh-pages": "^5.0.0",
     "jsdom": "^21.1.0",
     "postcss": "^8.4.21",
     "postcss-loader": "^7.0.2",
