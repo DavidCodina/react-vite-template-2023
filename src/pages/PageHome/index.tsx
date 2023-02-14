@@ -1,6 +1,8 @@
 import { useTitle } from 'hooks'
 import { ClickCounter, HR, Title, Waves } from 'components'
 
+import { Link } from 'react-router-dom'
+
 /* ========================================================================
                                 PageHome
 ======================================================================== */
